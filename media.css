@@ -1,0 +1,74 @@
+/* Media queries for smaller screens */
+
+@media only screen and (max-width: 768px) {
+    nav{
+        
+    }
+    body {
+        margin-top: 15vh; /* Adjust margin-top for the fixed navbar */
+    }
+
+    img {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%; /* Adjust image width for smaller screens */
+    }
+
+    .info {
+        top: 55%; /* Adjust the position of the info div */
+        text-align: center;
+    }
+
+    button {
+        padding: 3%; /* Adjust button padding for smaller screens */
+    }
+
+    nav {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    li {
+        padding: 10px 0;
+    }
+
+    #about, #projects, #internships, #skills, #contact {
+        margin-top: 80%;
+        margin-left: 5%; /* Adjust margin for main sections */
+        padding-top: 10%; /* Adjust padding for main sections */
+    }
+
+    .intern, .insideskill {
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .logo {
+        font-size: 120%; /* Adjust logo size for smaller screens */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Adjust name font size for smaller screens */
+    }
+
+    p {
+        font-size: 0.8em; /* Adjust description font size for smaller screens */
+    }
+    #home,img{
+        margin-top: 5%;
+        width: 50%;
+        margin-left:10% ;
+    }
+    #home,p{
+        font-size: small;
+    }
+    .info{
+       margin-left: 30%;
+       margin-top: 40%;
+       font-size: medium; 
+    }
+}

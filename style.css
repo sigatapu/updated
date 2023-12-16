@@ -1,0 +1,249 @@
+* {
+    border: 0;
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    background: black;
+}
+
+nav {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:black;
+    z-index: 1000; 
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+
+ nav, ul, li {
+
+    list-style: none;
+    display: flex;
+    font-size: 17px;
+    
+}
+
+li {
+    padding: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #0079FF;
+}
+
+
+.logo:hover {
+    cursor: default;
+}
+
+body {
+    scroll-behavior: smooth;
+    margin-top: 17vh; /* Adjust margin-top to account for the fixed navbar */
+}
+
+img {
+    position: relative;
+    
+    left: 32%;
+    padding-top: 5%;
+}
+
+.info {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 5%;
+    border-radius: 20%;
+    border-style: solid;
+    border: 2px solid #0079FF;
+}
+
+button, a {
+    color: white;
+}
+
+#about {
+    margin-left: 20%;
+  
+    padding-top: 17vh; 
+    padding-bottom: 10%;
+}
+
+#home {
+    position: relative;
+    
+    ;
+    padding-bottom: 10%;
+    padding-right: 0;
+}
+
+ding {
+    color: white;
+    font-weight: bolder;
+}
+
+ding:hover {
+    background-color:#0079FF;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0079FF;
+    border: 2px solid;
+}
+
+.no-x-scroll {
+    overflow-x: hidden;
+}
+
+/* form {
+    background-color: grey;
+    margin: 4%;
+     padding: 10%;
+    width: 25%;
+    margin: auto;
+    box-sizing: border-box;
+   align-items: last baseline; 
+    font-size: 20px;
+    border-radius: 20%;
+    border: 3px outset black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
+html {
+    scroll-behavior: smooth ;
+    
+}
+.linkedin{
+    position: absolute;
+    right: 30%;
+    
+}
+#projects {
+    margin-left: 20%;
+    position: relative;
+    
+    ;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    padding-right: 0;
+}
+#internships {
+    margin-left: 20%;
+    position: relative;
+    
+    ;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    padding-right: 0;
+}
+#skills{
+    margin-left: 20%;
+    position: relative;
+    
+    ;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    padding-right: 0;
+}
+ li:hover{
+    border-bottom: 2px solid #0079FF;
+}
+.fed{
+    margin-left: -10%;
+}
+.detail{
+    margin-left: 10%;
+}
+space{
+    color: black;
+}
+span{
+    color: #0079FF;
+}
+h2:hover{
+    width: 10%;
+    border-bottom: 2px solid #0079FF;
+    cursor: default;
+}
+.insideskill{
+   
+    margin-right: 57%;
+    margin-left: 17%;
+    margin-top: 2%;
+    padding-left: 10%;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 30%;
+    border:2px solid white
+}
+.insideskill:hover{
+    cursor: default;
+}
+.insideskill:hover{
+    border:2px solid #0079FF;
+    cursor: default;
+    color: #0079FF;
+  
+}
+h2{
+    color: #0079FF;
+}
+prof
+{
+    margin-left: 20%;
+}
+prof:hover{
+ color: #0079FF;
+ cursor: default;
+    
+}
+.intern{
+    margin-right: 57%;
+    margin-left: 17%;
+    margin-top: 2%;
+    padding-left: 5%;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 30%;
+    border:2px solid white
+}
+.intern:hover{
+    border:2px solid #0079FF;
+    cursor: default;
+    
+}
+.logo{
+    color: #0079FF;
+    font-weight: bolder;
+    font-size: 150%;
+}
+#contact{
+    margin-left: 20%;
+    position: relative;
+    
+    ;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    padding-right: 0;
+}
